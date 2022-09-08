@@ -35,9 +35,7 @@
               "projects/ngx-translate-cache/tsconfig.lib.json",
               "projects/ngx-translate-cache/tsconfig.spec.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         }
       }
@@ -62,9 +60,7 @@
               "projects/ngx-translate-cache-example/src/favicon.ico",
               "projects/ngx-translate-cache-example/src/assets"
             ],
-            "styles": [
-              "projects/ngx-translate-cache-example/src/styles.css"
-            ],
+            "styles": ["projects/ngx-translate-cache-example/src/styles.css"],
             "scripts": []
           },
           "configurations": {
@@ -78,7 +74,6 @@
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
-              "extractCss": true,
               "namedChunks": false,
               "extractLicenses": true,
               "vendorChunk": false,
@@ -126,9 +121,7 @@
               "projects/ngx-translate-cache-example/src/favicon.ico",
               "projects/ngx-translate-cache-example/src/assets"
             ],
-            "styles": [
-              "projects/ngx-translate-cache-example/src/styles.css"
-            ],
+            "styles": ["projects/ngx-translate-cache-example/src/styles.css"],
             "scripts": []
           }
         },
@@ -140,9 +133,7 @@
               "projects/ngx-translate-cache-example/tsconfig.spec.json",
               "projects/ngx-translate-cache-example/e2e/tsconfig.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         },
         "e2e": {
@@ -158,6 +149,6 @@
           }
         }
       }
-    }},
-  "defaultProject": "ngx-translate-cache-example"
+    }
+  }
 }
