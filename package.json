@@ -11,7 +11,7 @@
     "build:lib": "ng run ngx-translate-cache:build:production",
     "pack:lib": "npm run build:lib && cd dist/ngx-translate-cache && npm pack"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "^14.2.1",
     "@angular/common": "^14.2.1",
