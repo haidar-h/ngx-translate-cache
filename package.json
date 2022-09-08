@@ -1,5 +1,5 @@
 {
-  "name": "ngx-translate-cache",
+  "name": "@haidar-h/ngx-translate-cache",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
