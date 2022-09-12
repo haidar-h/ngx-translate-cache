@@ -1,6 +1,6 @@
 {
   "name": "@haidar-h/ngx-translate-cache",
-  "version": "14.0.5",
+  "version": "14.0.6",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
