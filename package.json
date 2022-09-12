@@ -9,9 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "build:lib": "ng run ngx-translate-cache:build:production",
-    "pack:lib": "npm run build:lib && cd dist/ngx-translate-cache && npm pack",
-    "prepublishOnly": "npm run pack:lib && cp -r ./dist/* . && rm -rf ./dist",
-    "postpublish": "git clean -fd"
+    "pack:lib": "npm run build:lib && cd dist/ngx-translate-cache && npm pack"
   },
   "private": false,
   "dependencies": {
