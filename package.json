@@ -1,6 +1,6 @@
 {
   "name": "@haidar-h/ngx-translate-cache",
-  "version": "14.0.6",
+  "version": "14.0.7",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -10,7 +10,8 @@
     "e2e": "ng e2e",
     "build:lib": "ng run ngx-translate-cache:build:production",
     "pack:lib": "npm run build:lib && cd dist/ngx-translate-cache && npm pack",
-    "prepublish": "npm run pack:lib"
+    "prepublishOnly": "npm run pack:lib && cp -r ./dist/* . && rm -rf ./dist",
+    "postpublish": "git clean -fd"
   },
   "private": false,
   "dependencies": {
