@@ -1,6 +1,6 @@
 {
   "name": "@haidar-h/ngx-translate-cache",
-  "version": "14.0.0",
+  "version": "15.0.0",
   "description": "ngx-translate extension to facilitate language cache.",
   "repository": {
     "type": "git",
@@ -27,8 +27,8 @@
     "tslib": "^2.0.0"
   },
   "peerDependencies": {
-    "@angular/common": "^14.2.1",
-    "@angular/core": "^14.2.1",
-    "@ngx-translate/core": "^14.0.0"
+    "@angular/common": "^15.0.4",
+    "@angular/core": "^15.0.4",
+    "@ngx-translate/core": "^15.0.0"
   }
 }
