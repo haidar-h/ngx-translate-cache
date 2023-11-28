@@ -1,1 +1,1 @@
-This is basically an updated version of [jgpacheco/ngx-translate-cache](https://github.com/jgpacheco/ngx-translate-cache) aimed to work with angular v17
+This is basically an updated version of [jgpacheco/ngx-translate-cache](https://github.com/jgpacheco/ngx-translate-cache) to work with angular v17.0.3
